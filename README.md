@@ -1,5 +1,8 @@
 # embed-bus-diag
 
+[![Tests](https://github.com/walidgali/embed-bus-diag/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/walidgali/embed-bus-diag/actions/workflows/ci.yml)
+
+
 Modular C11 embedded bus diagnostic CLI tool featuring:
 - Multi-transport HAL (`mock`, `linux-i2c`, `linux-spi`)
 - 42 sensor INI profiles (`profiles/*.ini`) with strict validation, datasheet calibration (`cal_profile`), and `CRC-8` verification
